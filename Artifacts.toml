@@ -1,18 +1,36 @@
 [[OCaml]]
-arch = "x86_64"
-git-tree-sha1 = "d7c5fd9e535c26e135778f5deb30c99abd375616"
+arch = "i686"
+git-tree-sha1 = "0ac32a9867bd1ba10d4cbfa0669c8ac02baa78ec"
 libc = "glibc"
 os = "linux"
 
     [[OCaml.download]]
-    sha256 = "728a671ea671c41690dfc30982df5339cdec642eb3af969357b8d43c2cc18a24"
-    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+1/OCaml.v5.3.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "607929c91c456ba0dcff8b5ad5254580454b850dc635d12b8afde598ad22c4ff"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v4.14.2+1/OCaml.v4.14.2.i686-linux-gnu.tar.gz"
 [[OCaml]]
-arch = "x86_64"
-git-tree-sha1 = "332ae1dbc82056fbeed2395ef3aa54dbf75e0c97"
+arch = "i686"
+git-tree-sha1 = "9dedbb2a5abd5bf2c3bb7e3269603bd23a356abc"
 libc = "musl"
 os = "linux"
 
     [[OCaml.download]]
-    sha256 = "931889ce58bc5ad4751ab4ebf760d3ff6ad8aedeae34832db762fe0d7318f46b"
-    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+1/OCaml.v5.3.0.x86_64-linux-musl.tar.gz"
+    sha256 = "73c633418939fbae2dbc35de195f4091965c6fd9bde8e8a66975253ac5ae47df"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v4.14.2+1/OCaml.v4.14.2.i686-linux-musl.tar.gz"
+[[OCaml]]
+arch = "x86_64"
+git-tree-sha1 = "447160aef0deb46402ce35a8325799791a0ec711"
+libc = "glibc"
+os = "linux"
+
+    [[OCaml.download]]
+    sha256 = "872497e0bf8478f1fd31d284406ca235beb1202bf66b7b1e183b6ae91150fca8"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v4.14.2+1/OCaml.v4.14.2.x86_64-linux-gnu.tar.gz"
+[[OCaml]]
+arch = "x86_64"
+git-tree-sha1 = "9c88f0c1bb8cab6665e5125e95fc31a41006ee9c"
+libc = "musl"
+os = "linux"
+
+    [[OCaml.download]]
+    sha256 = "f999084fb8b25138c0f6e39e7b94f3ef220b2bb627416e15a224c94bd45b633f"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v4.14.2+1/OCaml.v4.14.2.x86_64-linux-musl.tar.gz"
