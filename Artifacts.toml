@@ -1,18 +1,42 @@
 [[OCaml]]
+arch = "aarch64"
+git-tree-sha1 = "5221117f63b61f8fb71eda9f3d55ba02ac7290f0"
+os = "macos"
+
+    [[OCaml.download]]
+    sha256 = "fcf42af9505b1a08dbc69ee3fdd586a4e60a04d4c74aec45ddc730d3d9846327"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+3/OCaml.v5.3.0.aarch64-apple-darwin.tar.gz"
+[[OCaml]]
 arch = "x86_64"
-git-tree-sha1 = "5df430d18f61bfef0c46c55bab7a26e0801541aa"
+git-tree-sha1 = "6f6add2473c3728cdff026d1a85afa159c0cc4dd"
+os = "macos"
+
+    [[OCaml.download]]
+    sha256 = "18483a3f93d6d9d62983c4d9cb537441e91c812aaa12b624a4cf7916273630e3"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+3/OCaml.v5.3.0.x86_64-apple-darwin.tar.gz"
+[[OCaml]]
+arch = "x86_64"
+git-tree-sha1 = "28442753ed46ccee6573da2a890a257096dd6230"
 libc = "glibc"
 os = "linux"
 
     [[OCaml.download]]
-    sha256 = "6cd28ee5271c48e72ecb3296d16dbea1c31a5b3af779de8c97acd59fd231e69b"
-    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+2/OCaml.v5.3.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "e1457393fd0ec7844b75eb85636cc4df31821d0cf0dbbcef069e2192559206c7"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+3/OCaml.v5.3.0.x86_64-linux-gnu.tar.gz"
 [[OCaml]]
 arch = "x86_64"
-git-tree-sha1 = "f72253560cd7e7086304f2b380886767c2593783"
+git-tree-sha1 = "cd5543973bc1f98ab18cf0da9340339b77850cfe"
 libc = "musl"
 os = "linux"
 
     [[OCaml.download]]
-    sha256 = "30a86a9dccee1b17e7a7e7990eb20f3c6a5a9aac4240295e2a510e3be461c9f0"
-    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+2/OCaml.v5.3.0.x86_64-linux-musl.tar.gz"
+    sha256 = "a25b408e11bc9ba031775b3189d635f2106c25502342cd3556a8f93872dcaac2"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+3/OCaml.v5.3.0.x86_64-linux-musl.tar.gz"
+[[OCaml]]
+arch = "x86_64"
+git-tree-sha1 = "b4ebaa0fca0f2d3f8d6d740c23b3da787e93efc9"
+os = "windows"
+
+    [[OCaml.download]]
+    sha256 = "91b6442c66a1e7d79176de1df4241d1e609460c7e4121d746cbff916d1943dd1"
+    url = "https://github.com/JuliaBinaryWrappers/OCaml_jll.jl/releases/download/OCaml-v5.3.0+3/OCaml.v5.3.0.x86_64-w64-mingw32.tar.gz"
